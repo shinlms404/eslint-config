@@ -32,3 +32,7 @@ export async function defineESlintConfig(): Promise<FlatESLintConfig[]> {
 
   return flatConfigs
 }
+
+export async function eslintConfigs(): Promise<FlatESLintConfig[]> {
+  return await defineESlintConfig()
+}

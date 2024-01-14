@@ -1,6 +1,6 @@
 import type { FlatESLintConfig } from 'eslint-define-config'
 import { getPackageInfoSync, isPackageExists } from 'local-pkg'
-import type { AwaitAble } from './types'
+import type { AwaitAble, InteropDefault } from './types'
 
 export async function flat(
   ...configs: AwaitAble<FlatESLintConfig[]>[]
@@ -17,4 +17,8 @@ export function getVueVersion(): number | undefined {
       return Number(version[0])
     }
   }
+}
+
+export function interopDefault<T>(m: T): InteropDefault<T> {
+  return (m as any).default || m
 }

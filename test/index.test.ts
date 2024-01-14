@@ -1,7 +1,8 @@
 import { expect, test } from 'vitest'
-import { defineESlintConfig } from '../src/define'
+import defineESlintConfig from '../dist/index'
 
 test('define', async () => {
-  const configs = await defineESlintConfig()
+  const configs = defineESlintConfig()
+
   expect(configs).toMatchSnapshot()
 })

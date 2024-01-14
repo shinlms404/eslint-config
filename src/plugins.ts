@@ -1,16 +1,40 @@
+/* eslint-disable import/first */
+/* eslint-disable import/order */
 // @ts-nocheck
 
-export * as pluginTs from '@typescript-eslint/eslint-plugin'
-export * as configPrettier from 'eslint-config-prettier'
-export * as pluginComments from 'eslint-plugin-eslint-comments'
-export * as pluginImport from 'eslint-plugin-i'
-export * as pluginJsonc from 'eslint-plugin-jsonc'
-export * as pluginPrettier from 'eslint-plugin-prettier'
-export * as pluginSortKeys from 'eslint-plugin-sort-keys'
-export * as pluginUnicorn from 'eslint-plugin-unicorn'
-export * as pluginUnusedImports from 'eslint-plugin-unused-imports'
-export * as pluginVue from 'eslint-plugin-vue'
+import { interopDefault } from './utils'
 
+import * as _pluginTs from '@typescript-eslint/eslint-plugin'
+export const pluginTs = interopDefault(_pluginTs)
+
+import * as _configPrettier from 'eslint-config-prettier'
+export const configPrettier = interopDefault(_configPrettier)
+
+import * as _pluginComments from 'eslint-plugin-eslint-comments'
+export const pluginComments = interopDefault(_pluginComments)
+
+import * as _pluginImport from 'eslint-plugin-i'
+export const pluginImport = interopDefault(_pluginImport)
+
+import * as _pluginJsonc from 'eslint-plugin-jsonc'
+export const pluginJsonc = interopDefault(_pluginJsonc)
+
+import * as _pluginPrettier from 'eslint-plugin-prettier'
+export const pluginPrettier = interopDefault(_pluginPrettier)
+
+import * as _pluginSortKeys from 'eslint-plugin-sort-keys'
+export const pluginSortKeys = interopDefault(_pluginSortKeys)
+
+import * as _pluginUnicorn from 'eslint-plugin-unicorn'
+export const pluginUnicorn = interopDefault(_pluginUnicorn)
+
+import * as _pluginUnusedImports from 'eslint-plugin-unused-imports'
+export const pluginUnusedImports = interopDefault(_pluginUnusedImports)
+
+import * as _pluginVue from 'eslint-plugin-vue'
+export const pluginVue = interopDefault(_pluginVue)
+
+//parser
 export * as parserTs from '@typescript-eslint/parser'
 export * as parserJsonc from 'jsonc-eslint-parser'
 export * as parserVue from 'vue-eslint-parser'

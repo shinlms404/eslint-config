@@ -9,7 +9,9 @@ export function prettier(): FlatESLintConfig[] {
       },
       rules: {
         ...configPrettier.rules,
-        ...pluginPrettier.configs.recommended.rules,
+
+        'arrow-body-style': 'off',
+        'prefer-arrow-callback': 'off',
         'prettier/prettier': 'warn'
       }
     }
