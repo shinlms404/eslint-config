@@ -64,6 +64,7 @@
     "vue-eslint-parser": "^9.4.0"
   },
   "devDependencies": {
+    "@shinlms404/eslint-config": "workspace:*",
     "@types/node": "^20.11.0",
     "bumpp": "^9.2.1",
     "lint-staged": "^15.2.0",
