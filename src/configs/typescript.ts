@@ -33,7 +33,8 @@ export function typescript(): FlatESLintConfig[] {
         '@typescript-eslint/no-use-before-define': [
           'error',
           { classes: false, functions: false, variables: true }
-        ]
+        ],
+        '@typescript-eslint/no-explicit-any': 'off'
       }
     },
     {
