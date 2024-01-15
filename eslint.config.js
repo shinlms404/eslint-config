@@ -1,3 +1,3 @@
-import defineESlintConfig from '@shinlms404/eslint-config'
+import eslintConfigs from '@shinlms404/eslint-config'
 
-export default defineESlintConfig()
+export default eslintConfigs()
