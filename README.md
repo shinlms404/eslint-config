@@ -3,6 +3,8 @@
 [![npm version](https://badge.fury.io/js/%40shinlms404%2Feslint-config.svg)](https://badge.fury.io/js/%40shinlms404%2Feslint-config)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> **Tip:** For an enhanced development experience, it's recommended to use this package with [@shinlms404/prettier-config](https://www.npmjs.com/package/@shinlms404/prettier-config). Check out the [prettier-config repository](https://github.com/shinlms404/prettier-config) for more details.
+
 ## Description
 
 This is a custom ESLint configuration preset designed by Charlie Chan. It provides a set of rules and configurations for ESLint to ensure consistent code quality.
