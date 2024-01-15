@@ -1,8 +1,10 @@
 {
   "name": "@shinlms404/eslint-config",
   "version": "0.0.11",
-  "description": "",
-  "keywords": [],
+  "description": "My ESLint config preset",
+  "keywords": [
+    "eslint-config"
+  ],
   "homepage": "https://github.com/shinlms404/eslint-config#readme",
   "bugs": "https://github.com/shinlms404/eslint-config/issues",
   "repository": {
