@@ -67,6 +67,9 @@ devDependencies:
   '@shinlms404/eslint-config':
     specifier: ^0.0.11
     version: 0.0.11(@vue/compiler-sfc@3.4.13)(eslint@8.56.0)(prettier@3.2.2)(typescript@5.3.3)
+  '@shinlms404/prettier-config':
+    specifier: ^0.0.1
+    version: 0.0.1(eslint@8.56.0)(prettier@3.2.2)(typescript@5.3.3)
   '@types/node':
     specifier: ^20.11.0
     version: 20.11.0
@@ -624,6 +627,22 @@ packages:
       - eslint-import-resolver-webpack
       - prettier
       - supports-color
+      - typescript
+    dev: true
+
+  /@shinlms404/prettier-config@0.0.1(eslint@8.56.0)(prettier@3.2.2)(typescript@5.3.3):
+    resolution: {integrity: sha512-lg0KNNt9PCxdRKGNPcOkASuthyG/7nJwfBG5qwmLcdNXlXd97usWB/XFcNolvFD//3KBuHUhjbTJRQcwdapZuA==}
+    peerDependencies:
+      eslint: ^8.56.0
+      prettier: ^3.2.2
+    dependencies:
+      eslint: 8.56.0
+      prettier: 3.2.2
+      prettier-plugin-organize-imports: 3.2.4(prettier@3.2.2)(typescript@5.3.3)
+      prettier-plugin-packagejson: 2.4.9(prettier@3.2.2)
+    transitivePeerDependencies:
+      - '@volar/vue-language-plugin-pug'
+      - '@volar/vue-typescript'
       - typescript
     dev: true
 
