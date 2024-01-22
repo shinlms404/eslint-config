@@ -68,7 +68,7 @@
   "devDependencies": {
     "@shinlms404/eslint-config": "^0.0.11",
     "@shinlms404/prettier-config": "^0.0.1",
-    "@types/node": "^20.11.0",
+    "@types/node": "^20.11.5",
     "bumpp": "^9.2.1",
     "lint-staged": "^15.2.0",
     "prettier": "^3.2.2",
