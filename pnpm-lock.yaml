@@ -65,8 +65,8 @@ dependencies:
 
 devDependencies:
   '@shinlms404/prettier-config':
-    specifier: ^0.0.4
-    version: 0.0.4(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3)
+    specifier: ^0.1.0
+    version: 0.1.0(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3)
   '@types/node':
     specifier: ^20.11.5
     version: 20.11.5
@@ -599,18 +599,19 @@ packages:
     dev: true
     optional: true
 
-  /@shinlms404/prettier-config@0.0.4(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3):
-    resolution: {integrity: sha512-MIaHqJONa6bR6W0utlbAnkZi/iMgAdJW3OcQddaDnbeh/rzSY964ptHZpMOQADf6ni+gNhhEo9YUnHDFE7vewg==}
+  /@shinlms404/prettier-config@0.1.0(eslint@8.56.0)(prettier@3.2.4)(typescript@5.3.3):
+    resolution: {integrity: sha512-13MsYpYm9HSgyP8AKXKsXJLDOTpenXM9gcn61HSk6mhvRC1G61wyE0ipboBST8qFqegB/cxv7znMWkr9NTdZ5Q==}
     peerDependencies:
       eslint: ^8.56.0
+      prettier: ^3.2.4
     dependencies:
       eslint: 8.56.0
+      prettier: 3.2.4
       prettier-plugin-organize-imports: 3.2.4(prettier@3.2.4)(typescript@5.3.3)
       prettier-plugin-packagejson: 2.4.9(prettier@3.2.4)
     transitivePeerDependencies:
       - '@volar/vue-language-plugin-pug'
       - '@volar/vue-typescript'
-      - prettier
       - typescript
     dev: true
 
