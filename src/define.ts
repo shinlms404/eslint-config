@@ -21,11 +21,11 @@ export async function defineESlintConfig(): Promise<FlatESLintConfig[]> {
     imports(),
     comments(),
     jsonc(),
-    prettier(),
     sortKey(),
     javascript(),
     typescript(),
-    vue()
+    vue(),
+    prettier() //Must be at the end of the array
   )
 
   const flatConfigs = await flat(...configs)
