@@ -105,7 +105,7 @@ export function vue(): FlatESLintConfig[] {
         'vue/require-prop-types': 'off',
         'vue/space-infix-ops': 'error',
         'vue/space-unary-ops': ['error', { nonwords: false, words: true }],
-        'vue/no-multiple-template-root': 'off' // TODO: remove when v0.1.0
+        'vue/no-multiple-template-root': isVue3 ? 'off' : 'error'
       }
     }
   ]
