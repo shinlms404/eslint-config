@@ -70,7 +70,7 @@ export function vue(): FlatESLintConfig[] {
         'vue/dot-location': ['error', 'property'],
         'vue/dot-notation': ['error', { allowKeywords: true }],
         'vue/eqeqeq': ['error', 'smart'],
-        'vue/html-indent': ['error', 'indent'],
+        'vue/html-indent': ['error', 2],
         'vue/html-quotes': ['error', 'double'],
         'vue/max-attributes-per-line': 'off',
         'vue/multi-word-component-names': 'off',
