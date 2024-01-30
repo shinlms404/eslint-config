@@ -8,7 +8,8 @@ import {
   prettier,
   sortKey,
   typescript,
-  vue
+  vue,
+  yaml
 } from './configs/index'
 import type { AwaitAble } from './types'
 import { flat } from './utils'
@@ -25,6 +26,7 @@ export async function defineESlintConfig(): Promise<FlatESLintConfig[]> {
     javascript(),
     typescript(),
     vue(),
+    yaml(),
     prettier() //Must be at the end of the array
   )
 

@@ -10,6 +10,8 @@ export const JSONC = '**/*.jsonc'
 
 export const VUE = '**/*.vue'
 
+export const YAML = '**/*.y?(a)ml'
+
 export const NODE_MODULES = '**/node_modules'
 export const DIST = '**/dist'
 export const LOCKFILE = [
