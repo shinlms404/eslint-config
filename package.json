@@ -1,6 +1,6 @@
 {
   "name": "@shinlms404/eslint-config",
-  "version": "0.0.18-beta.0",
+  "version": "0.0.18",
   "description": "My ESLint config preset",
   "keywords": [
     "eslint-config"
