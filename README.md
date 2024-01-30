@@ -64,6 +64,11 @@ This project is licensed under the [MIT License](LICENSE).
 - [GitHub Repository](https://github.com/shinlms404/eslint-config)
 - [npm Package](https://www.npmjs.com/package/@shinlms404/eslint-config)
 
+## Fork by
+
+- [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+- [@sxzz/eslint-config](https://github.com/sxzz/eslint-config)
+
 ---
 
 Adjust the sections and content based on your specific needs and preferences.
