@@ -39,8 +39,8 @@ dependencies:
     specifier: ^2.3.5
     version: 2.3.5
   eslint-plugin-unicorn:
-    specifier: ^50.0.1
-    version: 50.0.1(eslint@8.56.0)
+    specifier: ^51.0.0
+    version: 51.0.0(eslint@8.56.0)
   eslint-plugin-unused-imports:
     specifier: ^3.0.0
     version: 3.0.0(@typescript-eslint/eslint-plugin@6.20.0)(eslint@8.56.0)
@@ -1501,8 +1501,8 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-unicorn@50.0.1(eslint@8.56.0):
-    resolution: {integrity: sha512-KxenCZxqSYW0GWHH18okDlOQcpezcitm5aOSz6EnobyJ6BIByiPDviQRjJIUAjG/tMN11958MxaQ+qCoU6lfDA==}
+  /eslint-plugin-unicorn@51.0.0(eslint@8.56.0):
+    resolution: {integrity: sha512-104L+VrZQ0RlyTYQPmF0ofoN1/rot1U/BoCSUDTTiPgumzA/QUzDwUqbR4Q0laOYXi5sYI2HDrJQ/b5PlJteCA==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: '>=8.56.0'
