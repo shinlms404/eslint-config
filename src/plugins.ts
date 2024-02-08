@@ -4,12 +4,13 @@
 
 import { interopDefault } from './utils'
 
+// configs
+import * as _configPrettier from 'eslint-config-prettier'
+export const configPrettier = interopDefault(_configPrettier)
+
 // plugins
 import * as _pluginTs from '@typescript-eslint/eslint-plugin'
 export const pluginTs = interopDefault(_pluginTs)
-
-import * as _configPrettier from 'eslint-config-prettier'
-export const configPrettier = interopDefault(_configPrettier)
 
 import * as _pluginComments from 'eslint-plugin-eslint-comments'
 export const pluginComments = interopDefault(_pluginComments)
