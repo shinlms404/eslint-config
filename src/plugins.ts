@@ -4,6 +4,7 @@
 
 import { interopDefault } from './utils'
 
+// plugins
 import * as _pluginTs from '@typescript-eslint/eslint-plugin'
 export const pluginTs = interopDefault(_pluginTs)
 
