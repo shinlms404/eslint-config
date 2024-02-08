@@ -11,7 +11,7 @@ export function yaml(): FlatESLintConfig[] {
         parser: parserYaml
       },
       plugins: {
-        jsonc: pluginYaml
+        yml: pluginYaml
       },
       rules: {
         ...(pluginYaml.configs.recommended.rules as ConfigRules),
