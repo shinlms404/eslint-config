@@ -12,6 +12,7 @@ export function javascript(): FlatESLintConfig[] {
           ...globals.browser,
           ...globals.es2021,
           ...globals.node,
+
           document: 'readonly',
           navigator: 'readonly',
           window: 'readonly'

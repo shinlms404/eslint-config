@@ -14,7 +14,7 @@ import {
 import type { AwaitAble } from './types'
 import { flat } from './utils'
 
-export async function defineESlintConfig(): Promise<FlatESLintConfig[]> {
+export async function eslintConfigs(): Promise<FlatESLintConfig[]> {
   const configs: AwaitAble<FlatESLintConfig[]>[] = []
 
   configs.push(
@@ -30,11 +30,7 @@ export async function defineESlintConfig(): Promise<FlatESLintConfig[]> {
     prettier() //Must be at the end of the array
   )
 
-  const flatConfigs = await flat(...configs)
+  const flatted = await flat(...configs)
 
-  return flatConfigs
-}
-
-export async function eslintConfigs(): Promise<FlatESLintConfig[]> {
-  return await defineESlintConfig()
+  return flatted
 }

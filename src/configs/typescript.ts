@@ -1,6 +1,7 @@
 import type { FlatESLintConfig } from 'eslint-define-config'
 import { TS, TSX } from '../files'
 import { parserTs, pluginTs } from '../plugins'
+import type { ConfigRules } from '../types'
 
 export function typescript(): FlatESLintConfig[] {
   return [
@@ -16,9 +17,9 @@ export function typescript(): FlatESLintConfig[] {
         '@typescript-eslint': pluginTs
       },
       rules: {
-        ...pluginTs.configs.recommended.rules,
-        ...pluginTs.configs['eslint-recommended'].rules,
-        ...pluginTs.configs.strict.rules,
+        ...(pluginTs.configs.recommended.rules as ConfigRules),
+        ...(pluginTs.configs['eslint-recommended'].rules as ConfigRules),
+        ...(pluginTs.configs.strict.rules as ConfigRules),
 
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/ban-types': 'off',

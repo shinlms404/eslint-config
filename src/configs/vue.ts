@@ -1,9 +1,9 @@
 import type { FlatESLintConfig } from 'eslint-define-config'
 import { mergeProcessors } from 'eslint-merge-processors'
 import processorVueBlocks from 'eslint-processor-vue-blocks'
-
 import { VUE } from '../files'
 import { parserVue, pluginVue } from '../plugins'
+import type { ConfigRules } from '../types'
 import { getVueVersion } from '../utils'
 
 export function vue(): FlatESLintConfig[] {
@@ -42,8 +42,8 @@ export function vue(): FlatESLintConfig[] {
         vue: pluginVue
       },
       rules: {
-        ...pluginVue.configs.base.rules,
-        ...vueRules,
+        ...(pluginVue.configs.base.rules as ConfigRules),
+        ...(vueRules as ConfigRules),
 
         'node/prefer-global/process': 'off',
 
