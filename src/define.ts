@@ -5,6 +5,7 @@ import {
   imports,
   javascript,
   jsonc,
+  markdown,
   prettier,
   sortKey,
   typescript,
@@ -27,6 +28,7 @@ export async function eslintConfigs(): Promise<FlatESLintConfig[]> {
     typescript(),
     vue(),
     yaml(),
+    markdown(),
     prettier() //Must be at the end of the array
   )
 

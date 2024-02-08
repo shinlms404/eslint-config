@@ -12,6 +12,8 @@ export const VUE = '**/*.vue'
 
 export const YAML = '**/*.y?(a)ml'
 
+export const MARKDOWN = '**/*.md'
+
 export const NODE_MODULES = '**/node_modules'
 export const DIST = '**/dist'
 export const LOCKFILE = [

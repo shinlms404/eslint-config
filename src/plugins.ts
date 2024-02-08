@@ -38,6 +38,9 @@ export const pluginVue = interopDefault(_pluginVue)
 import * as _pluginYaml from 'eslint-plugin-yml'
 export const pluginYaml = interopDefault(_pluginYaml)
 
+import * as _pluginMd from 'eslint-plugin-markdown'
+export const pluginMd = interopDefault(_pluginMd)
+
 //parser
 export * as parserTs from '@typescript-eslint/parser'
 export * as parserJsonc from 'jsonc-eslint-parser'
