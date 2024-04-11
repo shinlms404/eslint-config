@@ -93,7 +93,7 @@ devDependencies:
     version: 3.2.4(prettier@3.2.5)(typescript@5.4.5)
   prettier-plugin-packagejson:
     specifier: ^2.4.14
-    version: 2.4.14(prettier@3.2.5)
+    version: 2.5.0(prettier@3.2.5)
   simple-git-hooks:
     specifier: ^2.11.1
     version: 2.11.1
@@ -841,7 +841,7 @@ packages:
       eslint: 8.57.0
       prettier: 3.2.5
       prettier-plugin-organize-imports: 3.2.4(prettier@3.2.5)(typescript@5.4.5)
-      prettier-plugin-packagejson: 2.4.14(prettier@3.2.5)
+      prettier-plugin-packagejson: 2.5.0(prettier@3.2.5)
     transitivePeerDependencies:
       - '@volar/vue-language-plugin-pug'
       - '@volar/vue-typescript'
@@ -3015,8 +3015,8 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /prettier-plugin-packagejson@2.4.14(prettier@3.2.5):
-    resolution: {integrity: sha512-sli+gV5tW7uxvzDZQscaBtSfbyAW2ToL6n/HGt51PipwX9vI7M54vefG0mKSfklVkT29TNGO6Mo6g8c6Z79gmw==}
+  /prettier-plugin-packagejson@2.5.0(prettier@3.2.5):
+    resolution: {integrity: sha512-6XkH3rpin5QEQodBSVNg+rBo4r91g/1mCaRwS1YGdQJZ6jwqrg2UchBsIG9tpS1yK1kNBvOt84OILsX8uHzBGg==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
