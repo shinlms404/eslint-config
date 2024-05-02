@@ -58,7 +58,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-unicorn": "^51.0.1",
-    "eslint-plugin-unused-imports": "^3.1.0",
+    "eslint-plugin-unused-imports": "^3.2.0",
     "eslint-plugin-vue": "^9.25.0",
     "eslint-plugin-yml": "^1.14.0",
     "eslint-processor-vue-blocks": "^0.1.2",
@@ -70,8 +70,8 @@
   },
   "devDependencies": {
     "@shinlms404/prettier-config": "^0.1.0",
-    "@types/node": "^20.12.7",
-    "bumpp": "^9.4.0",
+    "@types/node": "^20.12.8",
+    "bumpp": "^9.4.1",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
@@ -80,7 +80,7 @@
     "sucrase": "^3.35.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
-    "vitest": "^1.5.2"
+    "vitest": "^1.5.3"
   },
   "peerDependencies": {
     "eslint": "^8.56.0"
