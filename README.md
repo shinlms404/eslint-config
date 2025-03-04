@@ -45,11 +45,16 @@ This ESLint configuration includes the following plugins and dependencies:
 
 ## Scripts
 
-- `npm run lint`: Run ESLint to lint your code.
-- `npm run lint:fix`: Run ESLint and automatically fix fixable issues.
-- `npm test`: Run tests using Vitest.
-- `npm run typecheck`: Run TypeScript type checking.
-- `npm run watch`: Watch for changes and run ESLint accordingly.
+- `npm run build`: Build project for ESM/CJS formats with type definitions
+- `npm run lint`: Run ESLint to lint your code
+- `npm run lint:fix`: Automatically fix fixable ESLint issues
+- `npm run prepack`: Auto-run build before packaging (npm lifecycle hook)
+- `npm run prepare`: Setup git hooks with simple-git-hooks
+- `npm run release`: Bump version and publish to npm
+- `npm run stub`: Quick build without cleanup/type definitions
+- `npm test`: Run tests with Vitest
+- `npm run typecheck`: Run TypeScript type checking
+- `npm run watch`: Watch files and rebuild on changes
 
 ## Contributing
 
